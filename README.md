@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="Assets/GlitchWelcome.svg" alt="WELCOME Glitch Effect" width="500"/>
+  <img src="assets/GlitchWelcome.svg" alt="WELCOME Glitch Effect" width="500"/>
 </p>
 
 ## 👋 Hi there, I'm Yutisio12

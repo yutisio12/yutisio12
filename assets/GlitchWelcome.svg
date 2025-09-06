@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <style>
+    .base {
+      font-family: 'Courier New', monospace;
+      font-size: 80px;
+      font-weight: bold;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+    .red {
+      fill: #ff003c;
+      animation: glitchRed 1s infinite;
+    }
+    .blue {
+      fill: #00d8ff;
+      animation: glitchBlue 1s infinite;
+    }
+    .white {
+      fill: #ffffff;
+      animation: glitchWhite 1s infinite;
+    }
+
+    @keyframes glitchRed {
+      0% { transform: translate(2px, -2px); opacity: 0.8; }
+      20% { transform: translate(-3px, 3px); opacity: 0.6; }
+      40% { transform: translate(1px, -1px); opacity: 0.8; }
+      60% { transform: translate(-2px, 2px); opacity: 0.6; }
+      80% { transform: translate(3px, -3px); opacity: 0.8; }
+      100% { transform: translate(0,0); opacity: 1; }
+    }
+
+    @keyframes glitchBlue {
+      0% { transform: translate(-2px, 2px); opacity: 0.8; }
+      20% { transform: translate(3px, -3px); opacity: 0.6; }
+      40% { transform: translate(-1px, 1px); opacity: 0.8; }
+      60% { transform: translate(2px, -2px); opacity: 0.6; }
+      80% { transform: translate(-3px, 3px); opacity: 0.8; }
+      100% { transform: translate(0,0); opacity: 1; }
+    }
+
+    @keyframes glitchWhite {
+      0%, 100% { transform: translate(0,0); }
+      10% { transform: translate(-2px, 1px); }
+      30% { transform: translate(3px, -1px); }
+      50% { transform: translate(-1px, -2px); }
+      70% { transform: translate(2px, 2px); }
+      90% { transform: translate(-2px, 1px); }
+    }
+  </style>
+
+  <text x="50%" y="50%" class="base red">⚡ WELCOME ⚡</text>
+  <text x="50%" y="50%" class="base blue">⚡ WELCOME ⚡</text>
+  <text x="50%" y="50%" class="base white">⚡ WELCOME ⚡</text>
+</svg>
